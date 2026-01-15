@@ -83,22 +83,6 @@ label {
   border-radius: 4px;
 }
 
-@media (max-width: 768px) {
-  .actions button {
-    visibility: visible;
-  }
-}
-
-@media (min-width: 768px) {
-  .actions button {
-    visibility: hidden;
-  }
-
-  tr:hover .actions button {
-    visibility: visible;
-  }
-}
-
 .hidden {
   visibility: hidden;
 }
