@@ -84,7 +84,7 @@ label {
 }
 
 .hidden {
-  visibility: hidden;
+  visibility: visible;
 }
 
 input, select {
@@ -112,4 +112,5 @@ input:hover, input:focus, select:hover, select:focus  {
 button:hover {
   border: 1px solid lightgray;
   filter: brightness(1.2);
+
 }
